@@ -3,8 +3,8 @@ apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   namespace: anupam
   name: namespace-reader
-  annotations:
-    configsync.gke.io/cluster-name-selector: autopilot-cluster-prod
+  #annotations:
+   # configsync.gke.io/cluster-name-selector: autopilot-cluster-prod
 rules:
 - apiGroups: [""]
   resources: ["namespaces"]
