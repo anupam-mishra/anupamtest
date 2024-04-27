@@ -1,7 +1,7 @@
 apiVersion: configsync.gke.io/v1alpha1
 kind: RootSync
 metadata:
-  name: my-cluster-config # Replace with a descriptive name
+  name: root-sync # Replace with a descriptive name
   namespace: config-management-system # Standard namespace for Config Sync resources
 spec:
   git:
