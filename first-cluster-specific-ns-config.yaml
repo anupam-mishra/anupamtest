@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: rohan
   annotations:
-    configmanagement.gke.io/cluster-selector: autopilot-cluster-prod
+    configsync.gke.io/cluster-name-selector: autopilot-cluster-prod
