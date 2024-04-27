@@ -7,7 +7,7 @@ spec:
   git:
     repo: https://github.com/anupam-mishra/anupamtest # Replace with your Git repository URL
     branch: main # Replace with the branch containing your configurations (optional)
-    dir: /   #cluster-config # Replace with the directory containing cluster-scoped configurations
+    dir: cluster-config # Replace with the directory containing cluster-scoped configurations
     auth: none # Update based on your authentication needs (e.g., secret reference for private repos)
   # Optional: Override resource filtering with a list of specific resources to manage
   # resources:
