@@ -4,7 +4,7 @@ metadata:
   namespace: anupam
   name: namespace-reader-2
   annotations:
-    configsync.gke.io/cluster-name-selector: standard-cluster-1
+    configsync.gke.io/cluster-name-selector: cluster-1
 rules:
 - apiGroups: [""]
   resources: ["namespaces"]
