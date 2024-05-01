@@ -10,3 +10,4 @@ spec:
     image: nginx
     securityContext:
       privileged: false
+      allowPrivilegeEscalation: false
