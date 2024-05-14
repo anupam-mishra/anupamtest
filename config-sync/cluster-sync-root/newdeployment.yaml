@@ -9,6 +9,7 @@ spec:
       app: anupam-test  # Match labels with pod container name
   template:
     metadata:
+      name: anupam-test-pod
       labels:
         app: anupam-test # Define labels for pod identification
     spec:
